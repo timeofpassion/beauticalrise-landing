@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #d9e6ff;
+  --color-brand-200: #bcd4ff;
+  --color-brand-300: #8eb8ff;
+  --color-brand-400: #5990ff;
+  --color-brand-500: #4b6fa5;
+  --color-brand-600: #3d5a87;
+  --color-brand-700: #2d436b;
+  --color-brand-800: #1a2d4d;
+  --color-brand-900: #000f29;
+  --color-brand-glow: rgba(75, 111, 165, 0.4);
+
+  --font-sans: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
