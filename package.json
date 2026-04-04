@@ -11,7 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-    "dependencies": {
+  "dependencies": {
+    "@notionhq/client": "^5.16.0",
     "next": "^16.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -21,6 +22,7 @@
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "postcss": "^8.5.8",
+    "puppeteer": "^24.40.0",
     "tailwindcss": "^4.2.2",
     "typescript": "^6.0.2"
   }

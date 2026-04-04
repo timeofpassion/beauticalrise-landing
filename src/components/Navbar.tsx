@@ -1,13 +1,14 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const links = ["Network", "Solutions", "Success Stories", "Contact"];
 
 export default function Navbar() {
   return (
     <nav className="absolute top-0 w-full px-6 md:px-15 py-8 md:py-10 flex justify-between items-center z-50">
-      <div className="flex items-center gap-2.5">
+      <Link href="/" className="flex items-center gap-2.5">
         <Image
           src="/logo-icon.png"
           alt="뷰티컬라이즈"
@@ -19,7 +20,7 @@ export default function Navbar() {
         <span className="font-extrabold text-sm md:text-base tracking-[0.2em] uppercase text-white">
           BEAUTICALRISE
         </span>
-      </div>
+      </Link>
       <div className="hidden md:flex gap-8 lg:gap-10">
         {links.map((link) => (
           <a
@@ -30,6 +31,12 @@ export default function Navbar() {
             {link}
           </a>
         ))}
+        <Link
+          href="/blog"
+          className="text-white/60 text-xs tracking-[0.15em] uppercase hover:text-white transition-colors"
+        >
+          Blog
+        </Link>
       </div>
     </nav>
   );

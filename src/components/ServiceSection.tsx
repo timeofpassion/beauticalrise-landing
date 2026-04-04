@@ -1,7 +1,7 @@
 "use client";
 
 import OrbitRings from "./OrbitRings";
-import SystemCode from "./SystemCode";
+
 
 const services = [
   {
@@ -56,18 +56,12 @@ export default function ServiceSection() {
   return (
     <section className="relative">
       <div className="max-w-7xl mx-auto px-5 md:px-10 py-24 md:py-36 relative">
-        <SystemCode text="DEPLOYMENT_STATUS: GLOBAL_ACTIVE" position="top-left" />
-        <SystemCode text="PROTOCOL: REGIONAL_LOCALIZATION" position="top-right" />
-
         <OrbitRings
           ringCount={2}
           className="w-[1200px] h-[1200px] opacity-10 -z-[1]"
           sensitivity={15}
         />
 
-        <p className="text-[11px] tracking-[0.5em] uppercase text-brand-500 mb-4 text-center">
-          3. Service
-        </p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-14 md:mb-16 tracking-tight">
           우리가 하는 일은<br />딱 3가지입니다.
         </h2>

@@ -1,7 +1,7 @@
 "use client";
 
 import OrbitRings from "./OrbitRings";
-import SystemCode from "./SystemCode";
+
 
 const testimonials = [
   {
@@ -42,18 +42,12 @@ export default function TestimonialsSection() {
   return (
     <section id="success-stories" className="relative">
       <div className="max-w-7xl mx-auto px-5 md:px-10 py-24 md:py-36 relative">
-        <SystemCode text="DATA_SOURCE: PARTNER_FEEDBACK" position="top-left" />
-        <SystemCode text="INTEGRITY_CHECK: VERIFIED_SUCCESS" position="top-right" />
-
         <OrbitRings
           ringCount={2}
           className="w-[1200px] h-[1200px] opacity-[0.08] -z-[1]"
           sensitivity={10}
         />
 
-        <p className="text-[11px] tracking-[0.5em] uppercase text-brand-500 mb-4 text-center">
-          4. Testimonials
-        </p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-14 md:mb-16 tracking-tight">
           실제 병원에서 이렇게 달라졌습니다.
         </h2>
