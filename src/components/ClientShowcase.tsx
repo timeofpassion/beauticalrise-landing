@@ -72,7 +72,8 @@ export default function ClientShowcase() {
           뷰티컬라이즈는 대한민국 대표 피부과 네트워크
           <br className="md:hidden" />
           {" "}&lsquo;멜로우피부과&rsquo;의
-          해외 마케팅을 독점 전담 운영하고 있습니다.
+          <br className="md:hidden" />
+          {" "}해외 마케팅을 독점 전담 운영하고 있습니다.
           <br />
           전문의 네트워크 병원의 해외 환자 유치,
           <br className="md:hidden" />

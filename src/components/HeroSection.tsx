@@ -78,7 +78,7 @@ export default function HeroSection() {
           무료 해외마케팅 진단 받기
         </a>
         <a
-          href="https://onedrive.live.com/personal/124a30372c7c31a3/_layouts/15/Doc.aspx?sourcedoc=%7B95ff2bb5-0cdd-40c7-8c8a-c9489e132b50%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy8xMjRhMzAzNzJjN2MzMWEzL0lRQzFLXy1WM1F6SFFJeUt5VWllRXl0UUFjWGdtclFWWkxBcFBDUWVEblFXVmVjP2U9Q2VTM0d0&slrid=855c05a2-d0dc-c000-7d97-88e8eda1ee70&originalPath=aHR0cHM6Ly9vbmVkcml2ZS5saXZlLmNvbS86cDovZy9wZXJzb25hbC8xMjRhMzAzNzJjN2MzMWEzL0lRQzFLXy1WM1F6SFFJeUt5VWllRXl0UUFjWGdtclFWWkxBcFBDUWVEblFXVmVjP3J0aW1lPTZvcjk0aGFQM2tnJnJlZGVlbT1hSFIwY0hNNkx5OHhaSEoyTG0xekwzQXZZeTh4TWpSaE16QXpOekpqTjJNek1XRXpMMGxSUXpGTFh5MVdNMUY2U0ZGSmVVdDVWV2xsUlhsMFVVRmpXR2R0Y2xGV1dreEJjRkJEVVdWRWJsRlhWbVZqUDJVOVEyVlRNMGQw&CID=7ab56aa5-4df3-40fe-8ec8-2b51d364fabd&_SRM=0%3AG%3A57&file=%5BProposal%5D%20%EB%A9%9C%EB%A1%9C%EC%9A%B0%ED%94%BC%EB%B6%80%EA%B3%BC%20%ED%95%B4%EC%99%B8%20%EC%97%90%EC%9D%B4%EC%A0%84%EC%8B%9C%20%EB%8C%80%EC%83%81%20%EC%A0%9C%EC%95%88%EC%84%9C%20%EC%B5%9C%EC%A2%85%EB%B3%B8.pptx"
+          href="https://drive.google.com/file/d/19SqBLcXCTPnfdz4eK9LGt6WlSBFIBH-d/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-white/20 text-white w-full sm:w-auto text-center px-8 sm:px-10 py-4 text-xs font-bold tracking-[0.15em] sm:tracking-[0.2em] uppercase hover:border-white hover:bg-white/5 transition-all"
